@@ -1,0 +1,268 @@
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=87df1c1e RDATA=0
+==> @245  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: df | dev: 03 | func: 4 | rsvd: 0 | ext_reg: c | reg: 01 |
+    | data: 4e0d1116 |
+<== @285  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=4e0d1116 RDATA=0
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=e1a7ee06 RDATA=0
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=e1a7ee06 RDATA=e208c49
+==> @425  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: a7 | dev: 1d | func: 6 | rsvd: 0 | ext_reg: 4 | reg: 00 |
+    | data: (not used for CFGRD) |
+<== @475  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: 12153524 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=1237ac9f RDATA=12153524
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=8b8bb241 RDATA=12153524
+==> @625  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 37 | dev: 15 | func: 4 | rsvd: 0 | ext_reg: c | reg: 09 |
+    | data: 8b8bb241 |
+<== @665  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=c16e04f5 RDATA=12153524
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=c16e04f5 RDATA=b1c705aa
+==> @785  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 6e | dev: 00 | func: 4 | rsvd: 0 | ext_reg: 4 | reg: 0f |
+    | data: (not used for CFGRD) |
+<== @835  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: c0895e81 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=17270716 RDATA=c0895e81
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=c70da5c3 RDATA=c0895e81
+==> @975  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 27 | dev: 00 | func: 7 | rsvd: 0 | ext_reg: 4 | reg: 01 |
+    | data: c70da5c3 |
+<== @1015  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=8893d8b1 RDATA=c0895e81
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=8893d8b1 RDATA=61fb9e2a
+==> @1145  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 93 | dev: 1b | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 0b |
+    | data: (not used for CFGRD) |
+<== @1195  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: 8484d609 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=12098933 RDATA=8484d609
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=1d6e85e RDATA=8484d609
+==> @1335  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 09 | dev: 11 | func: 1 | rsvd: 0 | ext_reg: 0 | reg: 03 |
+    | data: 01d6e85e |
+<== @1375  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=1b8f8614 RDATA=8484d609
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=1b8f8614 RDATA=d4ede973
+==> @1505  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 8f | dev: 10 | func: 6 | rsvd: 0 | ext_reg: 4 | reg: 01 |
+    | data: (not used for CFGRD) |
+<== @1555  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: b1f05663 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=8fee8cd5 RDATA=b1f05663
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=fc5d6b45 RDATA=b1f05663
+==> @1695  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: ee | dev: 11 | func: 4 | rsvd: 0 | ext_reg: 4 | reg: 0d |
+    | data: fc5d6b45 |
+<== @1735  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=c0bcb6bc RDATA=b1f05663
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=c0bcb6bc RDATA=4efeb49a
+==> @1875  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: bc | dev: 16 | func: 6 | rsvd: 0 | ext_reg: c | reg: 0b |
+    | data: (not used for CFGRD) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=87df1c1e RDATA=0
+==> @245  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: df | dev: 03 | func: 4 | rsvd: 0 | ext_reg: c | reg: 01 |
+    | data: 4e0d1116 |
+<== @285  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=4e0d1116 RDATA=0
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=e1a7ee06 RDATA=0
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=e1a7ee06 RDATA=e208c49
+==> @425  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: a7 | dev: 1d | func: 6 | rsvd: 0 | ext_reg: 4 | reg: 00 |
+    | data: (not used for CFGRD) |
+<== @475  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: 12153524 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=1237ac9f RDATA=12153524
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=8b8bb241 RDATA=12153524
+==> @625  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 37 | dev: 15 | func: 4 | rsvd: 0 | ext_reg: c | reg: 09 |
+    | data: 8b8bb241 |
+<== @665  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=c16e04f5 RDATA=12153524
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=c16e04f5 RDATA=b1c705aa
+==> @785  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 6e | dev: 00 | func: 4 | rsvd: 0 | ext_reg: 4 | reg: 0f |
+    | data: (not used for CFGRD) |
+<== @835  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: c0895e81 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=17270716 RDATA=c0895e81
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=c70da5c3 RDATA=c0895e81
+==> @975  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 27 | dev: 00 | func: 7 | rsvd: 0 | ext_reg: 4 | reg: 01 |
+    | data: c70da5c3 |
+<== @1015  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=8893d8b1 RDATA=c0895e81
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=8893d8b1 RDATA=61fb9e2a
+==> @1145  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 93 | dev: 1b | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 0b |
+    | data: (not used for CFGRD) |
+<== @1195  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: 8484d609 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=12098933 RDATA=8484d609
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=1d6e85e RDATA=8484d609
+==> @1335  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 09 | dev: 11 | func: 1 | rsvd: 0 | ext_reg: 0 | reg: 03 |
+    | data: 01d6e85e |
+<== @1375  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=1b8f8614 RDATA=8484d609
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=1b8f8614 RDATA=d4ede973
+==> @1505  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: 8f | dev: 10 | func: 6 | rsvd: 0 | ext_reg: 4 | reg: 01 |
+    | data: (not used for CFGRD) |
+<== @1555  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  01010 |1|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 0|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: b1f05663 |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=8fee8cd5 RDATA=b1f05663
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cfc  WDATA=fc5d6b45 RDATA=b1f05663
+==> @1695  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: ee | dev: 11 | func: 4 | rsvd: 0 | ext_reg: 4 | reg: 0d |
+    | data: fc5d6b45 |
+<== @1735  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  01010 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000000 |
+    |_____ cpl_id: 0100 ___|cpl_status: 0|bcm: 1|__ byte_cnt: 0004 |
+    |_____ req_id: 0000 ___|___ tag: 00 ___|rsvd20: 0| low_addr: 78 |
+    | data: (not used for Cpl) |
+Transaction: APB_MASTER_TRANSFER : DIR=WRITE ADDR=cf8  WDATA=c0bcb6bc RDATA=b1f05663
+Transaction: APB_MASTER_TRANSFER : DIR=READ ADDR=cfc  WDATA=c0bcb6bc RDATA=4efeb49a
+==> @1875  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0|00| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: f |
+    | bus: bc | dev: 16 | func: 6 | rsvd: 0 | ext_reg: c | reg: 0b |
+    | data: (not used for CFGRD) |

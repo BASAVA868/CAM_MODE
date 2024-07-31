@@ -1,0 +1,360 @@
+==> @205  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 70 | dev: 1f | func: 4 | rsvd: 0 | ext_reg: 0 | reg: 11 |
+    | data: b389a896 |
+<== @215  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @225  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @335  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: a7 | dev: 1d | func: 6 | rsvd: 0 | ext_reg: 0 | reg: 01 |
+    | data: (not used for CFGRD) |
+<== @345  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 12153524 |
+<== @355  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 12153524 |
+==> @465  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: d1 | dev: 0c | func: 4 | rsvd: 0 | ext_reg: 0 | reg: 1c |
+    | data: 62198c45 |
+<== @475  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @485  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @585  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 6e | dev: 00 | func: 4 | rsvd: 0 | ext_reg: 0 | reg: 3d |
+    | data: (not used for CFGRD) |
+<== @595  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: c0895e81 |
+<== @605  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: c0895e81 |
+==> @715  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 11 | dev: 09 | func: 5 | rsvd: 0 | ext_reg: 0 | reg: 2e |
+    | data: 8250d97e |
+<== @725  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @735  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @845  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 93 | dev: 1b | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 2c |
+    | data: (not used for CFGRD) |
+<== @855  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 8484d609 |
+<== @865  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 8484d609 |
+==> @975  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: e2 | dev: 1e | func: 1 | rsvd: 0 | ext_reg: 0 | reg: 16 |
+    | data: 6d874c3a |
+<== @985  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @995  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @1105  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 8f | dev: 10 | func: 6 | rsvd: 0 | ext_reg: 0 | reg: 05 |
+    | data: (not used for CFGRD) |
+<== @1115  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: b1f05663 |
+<== @1125  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: b1f05663 |
+==> @1235  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 70 | dev: 14 | func: 4 | rsvd: 0 | ext_reg: 0 | reg: 2d |
+    | data: 611dc295 |
+<== @1245  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @1255  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @1375  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: bc | dev: 16 | func: 6 | rsvd: 0 | ext_reg: 0 | reg: 2f |
+    | data: (not used for CFGRD) |
+<== @1385  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 06b97b0d |
+<== @1395  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 06b97b0d |
+==> @1505  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 6f | dev: 12 | func: 1 | rsvd: 0 | ext_reg: 0 | reg: 02 |
+    | data: 206fbcba |
+<== @1515  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @1525  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @1645  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: f9 | dev: 13 | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 2b |
+    | data: (not used for CFGRD) |
+<== @1655  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 46df998d |
+<== @1665  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 46df998d |
+==> @1775  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 2e | dev: 06 | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 0e |
+    | data: 16967a2d |
+<== @1785  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @1795  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @1895  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 45 | dev: 12 | func: 7 | rsvd: 0 | ext_reg: 0 | reg: 10 |
+    | data: (not used for CFGRD) |
+<== @1905  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: b2c28465 |
+<== @1915  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: b2c28465 |
+==> @2025  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: d5 | dev: 15 | func: 3 | rsvd: 0 | ext_reg: 0 | reg: 25 |
+    | data: f9727ccb |
+<== @2035  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @2045  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @2155  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 8e | dev: 1c | func: 6 | rsvd: 0 | ext_reg: 0 | reg: 21 |
+    | data: (not used for CFGRD) |
+<== @2165  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 89375212 |
+<== @2175  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 89375212 |
+==> @2275  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 57 | dev: 0b | func: 7 | rsvd: 0 | ext_reg: 0 | reg: 2e |
+    | data: d2da9dd8 |
+<== @2285  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @2295  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @2415  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 95 | dev: 02 | func: 0 | rsvd: 0 | ext_reg: 0 | reg: 35 |
+    | data: (not used for CFGRD) |
+<== @2425  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 00f3e301 |
+<== @2435  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 00f3e301 |
+==> @2545  CFGWR (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 45 | dev: 0b | func: 5 | rsvd: 0 | ext_reg: 0 | reg: 2a |
+    | data: 5bd6309a |
+<== @2555  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+<== @2565  Cpl (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 000 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0000 | low_addr: 00 |
+    | data: (not used for Cpl) |
+==> @2675  CFGRD (req_id 0, tag 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00100 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000001 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: f |fbe: f |
+    | bus: 9f | dev: 1e | func: 4 | rsvd: 0 | ext_reg: 0 | reg: 35 |
+    | data: (not used for CFGRD) |
+<== @2685  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 06d7cd0d |
+<== @2695  CplD (req_id 0, tag 0, status 0)
+    | fmt |   typ   |t|  tc |t|a|l|t|t|e|att| at|       length      |
+    | 010 |  00000 |0|_ 000 _|0|0|0|0|0|0| 00 | 0000000000 |
+    |________ req_id: 0000 _________|___ tag: 00 ___|lbe: 0 |fbe: 0 |
+    | status: 0 | bcm: 0 | byte_cnt: 0002 | low_addr: 00 |
+    | data: 06d7cd0d |

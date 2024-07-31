@@ -1,0 +1,7 @@
+`include "PCIE/pcie_if.sv"
+`include "PCIE/pcie_pkt.sv"
+`include "PCIE/pcie_wr_seq.sv"
+`include "PCIE/pcie_rd_seq.sv"
+`include "PCIE/pcie_driver.sv"
+`include "PCIE/pcie_monitor.sv"
+`include "PCIE/pcie_agent.sv"
