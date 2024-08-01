@@ -41,25 +41,35 @@ class cam_config_tlp_monitor extends uvm_monitor;
 
   task run_phase(uvm_phase phase);
     cam_config_tlp_transaction tx;
-    logic [127:0] cfg_tlp;
+//    logic [127:0] cfg_tlp;
     logic [127:0] cmpl_tlp;
     int cfg_dw_count, cmpl_dw_count;
 
     forever begin
+      tx = cam_config_tlp_transaction::type_id::create("tx");
       @(posedge vif.pclk);
 
       // Monitor configuration transaction
       if (vif.cfg_tlp_valid && vif.cfg_tlp_ready) begin                              // also check for first_data_tlp
         cfg_dw_count = 0;
-        cfg_tlp = 128'h0;
-
-        while (cfg_dw_count < 4 && vif.cfg_tlp_valid && vif.cfg_tlp_ready) begin     // why 4????
-          cfg_tlp[32*cfg_dw_count +: 32] = vif.cfg_tlp;
-          cfg_dw_count++;
-          @(posedge vif.pclk);
+        tx.cfg_tlp = 128'h0;
+        if(vif.cfg_tlp[2:0] == 3'b010 && vif.cfg_tlp[7:3] == 5'b00100) begin
+          while ( cfg_dw_count < 4 && vif.cfg_tlp_valid && vif.cfg_tlp_ready) begin     // why 4????
+            tx.cfg_tlp[32*cfg_dw_count +: 32] = vif.cfg_tlp;
+            cfg_dw_count++;
+            @(posedge vif.pclk);
+          end
+        end
+        else if(vif.cfg_tlp[2:0] == 3'b000 && vif.cfg_tlp[7:3] == 5'b00100) begin
+          while ( cfg_dw_count < 3 && vif.cfg_tlp_valid && vif.cfg_tlp_ready) begin     // why 4????
+            tx.cfg_tlp[32*cfg_dw_count +: 32] = vif.cfg_tlp;
+            cfg_dw_count++;
+            @(posedge vif.pclk);
+          end
         end
 
-        log_cfg_transaction(cfg_tlp);
+	cfg_pkt_rules_check(tx);
+        log_cfg_transaction(tx.cfg_tlp);
       end
 
       // Monitor completion transaction
@@ -77,6 +87,34 @@ class cam_config_tlp_monitor extends uvm_monitor;
       end
     end
   endtask
+
+task cfg_pkt_rules_check(cam_config_tlp_transaction tx);
+        // Check the TC (Traffic Class) field
+        if (tx.cfg_tlp[11:9] != 3'b000) begin
+            `uvm_fatal(get_type_name(), $sformatf("Expected TC='d0 --- Actual TC='d%d", tx.cfg_tlp[11:9]));
+        end
+        
+        // Check the Attr field
+        if (tx.cfg_tlp[19:18] != 2'b00) begin
+            `uvm_fatal(get_type_name(), $sformatf("Expected Attr='d0 --- Actual Attr='d%d", tx.cfg_tlp[19:18]));
+        end
+        
+        // Check the length field
+        if (tx.cfg_tlp[31:22] != 10'b0000000001) begin
+            `uvm_fatal(get_type_name(), $sformatf("Expected length='d1 --- Actual length='d%d", tx.cfg_tlp[31:22]));
+        end
+        
+        // First BE check (first 4 bits of TLP)
+        if (tx.cfg_tlp[63:60] != 4'b1111) begin
+            `uvm_fatal(get_type_name(), $sformatf("Expected First BE='b1111 --- Actual First BE='b%b", tx.cfg_tlp[63:60]));
+        end
+        
+        // Last BE check (next 4 bits after First BE)
+        if (tx.cfg_tlp[59:56] != 4'b0000) begin
+            `uvm_fatal(get_type_name(), $sformatf("Expected Last BE='b0000 --- Actual Last BE='b%b", tx.cfg_tlp[59:56]));
+        end
+endtask
+ 
 
   task log_cfg_transaction(logic [127:0] cfg_tlp);
     string fmt_str = (cfg_tlp[2:0] == 3'b010 && cfg_tlp[7:3] == 5'b00100) ? "CFGWR" : 
@@ -129,3 +167,4 @@ class cam_config_tlp_monitor extends uvm_monitor;
     end
   endtask
 endclass
+
